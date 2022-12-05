@@ -1,3 +1,3 @@
 class GrocerySerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :name, :image_url, :price, :rating
 end
