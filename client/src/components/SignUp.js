@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import { Button, Error, Input, FormField, Label, Textarea } from "../styles";
 
-const SignUpForm = ({ onLogin }) => {
+const SignUp = ({ onLogin }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [passwordConfirmation, setPasswordConfirmation] = useState("");
@@ -98,4 +98,4 @@ const SignUpForm = ({ onLogin }) => {
   );
 }
 
-export default SignUpForm
+export default SignUp

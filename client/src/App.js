@@ -1,7 +1,7 @@
 import React from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import {LoginForm, SignUpForm,Navbar} from './components';
+import {Login, SignUp,Navbar} from './components';
 
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
       <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={ <LoginForm/> } />
-        <Route path="signup" element={ <SignUpForm/> } />
+        <Route path="/" element={ <Login/> } />
+        <Route path="signup" element={ <SignUp/> } />
         
       </Routes>
       </BrowserRouter>
