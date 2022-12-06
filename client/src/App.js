@@ -1,5 +1,5 @@
 import React from "react";
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import {Login, SignUp,Navbar,Home,Groceries} from './components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
