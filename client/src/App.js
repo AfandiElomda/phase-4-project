@@ -1,5 +1,5 @@
 import React from "react";
-import {Login,SignUp,Navbar} from './components';
+import {Login,SignUp,Navbar,Hero} from './components';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
 
@@ -13,7 +13,7 @@ function App() {
         <Route path="signup" element={<SignUp />} /> */}
       </Routes>
       </BrowserRouter>
-      
+      <Hero />
     </>
   );
 }
