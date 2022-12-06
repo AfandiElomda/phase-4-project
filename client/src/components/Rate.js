@@ -2,7 +2,10 @@ import React from 'react'
 
 const Rate = () => {
   return (
-    <div>Rate</div>
+    <div className='rate'>
+      Rate
+
+    </div>
   )
 }
 

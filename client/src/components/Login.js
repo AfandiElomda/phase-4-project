@@ -28,7 +28,8 @@ const Login = ({ onLogin }) => {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <div className='login'>
+      <form onSubmit={handleSubmit}>
       <FormField>
         <Label htmlFor="username">Username</Label>
         <Input
@@ -60,6 +61,8 @@ const Login = ({ onLogin }) => {
         ))}
       </FormField>
     </form>
+    </div>
+    
   );
 }
   

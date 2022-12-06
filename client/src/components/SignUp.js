@@ -37,7 +37,8 @@ const SignUp = ({ onLogin }) => {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <div className='signup'>
+      <form onSubmit={handleSubmit}>
       <FormField>
         <Label htmlFor="username">Username</Label>
         <Input
@@ -95,6 +96,8 @@ const SignUp = ({ onLogin }) => {
         ))}
       </FormField>
     </form>
+    </div>
+    
   );
 }
 
