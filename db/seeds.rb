@@ -7,7 +7,9 @@
 #   Character.create(name: "Luke", movie: movies.first)
 puts "seeding "
 
-grocery_1 = Grocery.create(name:"ffff", price:20.2)
+grocery_1 = Grocery.create(
+    name:"",
+    image_url:"", price:20.2)
 grocery_2 = Grocery.create(name:"ffff1", price:203.2)
 
 user_1 = User.create(username:"sdsd",bio:"asdsjaqwjqwhqwqwqwqwwq")
