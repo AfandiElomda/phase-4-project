@@ -1,6 +1,7 @@
 import React from "react";
-import {Login,SignUp,Navbar,Hero} from './components';
+import {Login,SignUp,Navbar,Hero,OurGroceries,Footer,Cart} from './components';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
+
 
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
       </Routes>
       </BrowserRouter>
       <Hero />
+      <OurGroceries />
+      <Footer />
+      <Cart />
     </>
   );
 }
