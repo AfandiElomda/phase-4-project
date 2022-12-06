@@ -5,13 +5,18 @@ class GroceriesController < ApplicationController
         render json: groceries
     end
 
+    def create
+        groceries = Grocery.create!(grocery_params)
+        render json: groceries, status: :created
+      end
+
     def show
         groceries = find_grocery
         render json: groceries
     end
 
     def update
-        find_grocery.update!(power_params)
+        find_grocery.update!(grocery_params)
         render json: find_grocery, status: :accepted
     end
 
@@ -31,4 +36,8 @@ class GroceriesController < ApplicationController
     def find_grocery
         Grocery.find(params[:id])
     end
+
+    def grocery_params
+        params.permit(:name, :image_url, :rating, :price)
+     end
 end
