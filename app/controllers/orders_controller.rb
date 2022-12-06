@@ -2,7 +2,7 @@ class OrdersController < ApplicationController
     rescue_from ActiveRecord::RecordInvalid, with: :render_record_invalid
 
     def create
-      order = Order.create!(order_params).pizza
+      order = Order.create!(order_params)
       render json: order, status: :created
     end
 
