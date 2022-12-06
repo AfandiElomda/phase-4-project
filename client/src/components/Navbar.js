@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import { GiFruitBowl} from  "react-icons/hi2";
 
 const Navbar = () => {
   return (
     <div className='navbar'>
+      
       <Link to="/">
       <h3>Logo</h3>
     </Link>
