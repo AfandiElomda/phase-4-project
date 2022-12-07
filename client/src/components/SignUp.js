@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import { Button, Error, Input, FormField, Label } from "../styles";
+import { useNavigate } from 'react-router-dom'
 
 const SignUp = ({ onLogin }) => {
     const [username, setUsername] = useState("");
@@ -7,6 +8,8 @@ const SignUp = ({ onLogin }) => {
     const [passwordConfirmation, setPasswordConfirmation] = useState("");
     const [errors, setErrors] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
+    
+    const navigate = useNavigate()
   
     function handleSubmit(e) {
       e.preventDefault();
@@ -30,6 +33,7 @@ const SignUp = ({ onLogin }) => {
           r.json().then((err) => setErrors(err.errors));
         }
       });
+      navigate("/")
     }
   
     return (
@@ -65,7 +69,7 @@ const SignUp = ({ onLogin }) => {
           />
         </FormField>
         <FormField>
-          <Button type="submit">{isLoading ? "Loading..." : "Sign Up"}</Button>
+          <Button >{isLoading ? "Loading..." : "Sign Up"}</Button>
         </FormField>
         <FormField>
           {errors.map((err) => (

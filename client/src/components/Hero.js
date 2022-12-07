@@ -8,12 +8,7 @@ const Hero = () => {
         <div className='hero-text'>
             <h1>MI CASA SU CASA</h1>
             <p className='p'>Welcome to your happy place</p>
-            <form className='search'>
-                <div>
-                    <input type='text'placeholder="Search..."/>
-                </div>
-            </form>
-
+    
         </div>
 
     </div>

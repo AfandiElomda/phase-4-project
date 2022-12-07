@@ -9,10 +9,10 @@ const Navbar = () => {
     <div className='navbar'>
       <div className='container'>
       <h1><span><SiAudiomack/> Groceries</span></h1>
-     <a href='/login'><button className='btn'>Login</button></a>
+     {/* <a href='/login'><button className='btn'>Login</button></a> */}
       <a href='/signup'><button className='btn'>Sign Up</button></a>
       <ul className='nav-menu'>
-        <li><a href='/home'>Home</a></li>
+        <li><a href='/'>Home</a></li>
         <li><a href='/ourgroceries'>Our Groceries</a></li>
         <li><a href='/cart'><BsCartPlusFill className='icon'/><span>Cart</span></a></li>
         
