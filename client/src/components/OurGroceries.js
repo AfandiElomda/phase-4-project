@@ -18,6 +18,7 @@ const Groceries = () => {
       .then(data => setGrocery(data))
   }, []);
 
+  
  
   const groceryData = grocery.map((item) =>{
     return  (
@@ -27,7 +28,6 @@ const Groceries = () => {
       image_url={item.image_url}
       price={item.price}
       rating={item.rating}
-      // handleClick={handleClick}
       />
 
     ) }
@@ -45,7 +45,6 @@ const Groceries = () => {
         </div>
         
         <div className='groceryData'>{groceryData}</div> 
-
     </div>
   )
 }

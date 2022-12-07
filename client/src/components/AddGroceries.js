@@ -66,7 +66,7 @@ function AddGroceries() {
           onChange={handleChange}
         />
         <label htmlFor="rating">Rating: </label>
-        <textarea
+        <input
           id="rating"
           value={formData.description}
           onChange={handleChange}

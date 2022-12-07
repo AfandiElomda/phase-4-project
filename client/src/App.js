@@ -1,5 +1,5 @@
 import React from "react";
-import {Login,SignUp,Navbar,Hero,OurGroceries,Footer,Cart,Home, AddGroceries} from './components';
+import {SignUp,Navbar,OurGroceries,Cart,Home, AddGroceries} from './components';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
 
@@ -10,17 +10,13 @@ function App() {
       <Navbar />
       <Routes>
          <Route path="/" element={<Home />} />
-        {/* <Route path="login" element={<Login />} />  */}
         <Route path="/signup" element={<SignUp />} />
         <Route path="/ourgroceries" element={<OurGroceries />} />
         <Route path="/addgroceries" element={<AddGroceries />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
       </BrowserRouter>
-      <Hero />
-      <OurGroceries />
-      <Footer />
-      {/* <Cart /> */}
+      
     </>
   );
 }

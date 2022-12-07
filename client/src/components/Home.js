@@ -1,10 +1,14 @@
 import React from 'react'
-import App from '../App'
+import Hero from './Hero'
+import  OurGroceries  from './OurGroceries'
+import Footer from './Footer'
 
 const Home = () => {
   return (
     <div>
-   
+   <Hero />
+   <OurGroceries />
+      <Footer />
     </div>
   )
 }
