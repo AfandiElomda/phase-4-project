@@ -7,63 +7,63 @@
 #   Character.create(name: "Luke", movie: movies.first)
 puts "seeding "
 
-grocery_1 = Grocery.create(
+ Grocery.create(
     name:"bananas",
-    image_url:"https://greenspoon.co.ke/wp-content/uploads/2021/11/Greenspoon-Kwik-Basket-Sweet-Banana.jpg",
+    image_url:"https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
     price:60.80,
     rating:"4.5"
 )
-grocery_2 = Grocery.create(
+Grocery.create(
     name:"eggs", 
-    image_url:"https://cdn.britannica.com/94/151894-050-F72A5317/Brown-eggs.jpg",
+    image_url:"https://images.unsplash.com/photo-1491524062933-cb0289261700?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGVnZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
     price:110.50,
    rating:"4.0"
 )
-grocery_3 = Grocery.create(
+ Grocery.create(
     name:"broccoli", 
-    image_url:"https://domf5oio6qrcr.cloudfront.net/medialibrary/5390/h1218g16207258089583.jpg",
+    image_url:"https://images.unsplash.com/photo-1614336215203-05a588f74627?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     price:220.50,
    rating:"4.0"
 )
-grocery_4 = Grocery.create(
+ Grocery.create(
     name:"croissant", 
-    image_url:"https://www.theflavorbender.com/wp-content/uploads/2020/05/French-Croissants-SM-2363.jpg",
+    image_url:"https://images.unsplash.com/photo-1623334044303-241021148842?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     price:250.40,
    rating:"4.5"
 )
-grocery_5 = Grocery.create(
+ Grocery.create(
     name:"milk", 
-    image_url:"https://greenspoon.co.ke/wp-content/uploads/2018/06/Greenspoon-256.jpg",
+    image_url:"https://images.unsplash.com/photo-1563636619-e9143da7973b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80",
     price:145.50,
    rating:"4.0"
 )
-grocery_6 = Grocery.create(
-    name:"milk", 
-    image_url:"https://greenspoon.co.ke/wp-content/uploads/2022/02/Greenspoon-Nature-Plain-Natural-Yoghurt-Bio.jpg",
+ Grocery.create(
+    name:"yoghurt", 
+    image_url:"https://images.unsplash.com/photo-1584278433313-562a1bc0aa6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
     price:90.10,
    rating:"4.5"
 )
-grocery_7 = Grocery.create(
+ Grocery.create(
     name:"sausages", 
-    image_url:"https://igav3-metcdn-com.global.ssl.fastly.net/content/uploads/2019/11/20052212/851498-CommunityCo-Pork-Sausages-500g1.png",
+    image_url:"https://images.unsplash.com/photo-1598401863352-3de5501f4890?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
     price:350.50,
    rating:"4.5"
 )
-grocery_8 = Grocery.create(
+ Grocery.create(
     name:"apples", 
-    image_url:"https://publish.purewow.net/wp-content/uploads/sites/2/2021/03/types-of-apples-mcintosh.jpg?fit=728%2C524",
+    image_url:"https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     price:150.50,
    rating:"4.0"
 )
-grocery_9 = Grocery.create(
+ Grocery.create(
     name:"cereal", 
-    image_url:"https://cdnprod.mafretailproxy.com/sys-master-root/h0e/hfd/12463998173214/84600_Main.jpg_480Wx480H",
+    image_url:"https://images.unsplash.com/photo-1582401656496-9d75f95f9018?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
     price:150.60,
    rating:"4.0"
 )
-grocery_10 = Grocery.create(
-    name:"chicken", 
-    image_url:"https://i2-prod.mirror.co.uk/incoming/article26845420.ece/ALTERNATES/s1200/0_BRITAIN-ENVIRONMENT-FOOD-PLASTIC.jpg",
+Grocery.create(
+    name:"wings", 
+    image_url:"https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
     price:400.50,
     rating:"4.5"
 )
