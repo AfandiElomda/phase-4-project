@@ -35,7 +35,7 @@
 .p {
     font-size: 2rem;
 }
-.search {
+/* .search {
     display:flex;
     border-radius: 8px;
     padding: 4px;
@@ -43,5 +43,5 @@
     background-color: #fff; 
     width: 200px; 
     height:30px
-}
+} */
 

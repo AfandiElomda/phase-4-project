@@ -10,7 +10,7 @@ const Hero = () => {
             <p className='p'>Welcome to your happy place</p>
             <form className='search'>
                 <div>
-                    <input type='text' placeholder='Search...'/>
+                    <input type='text'placeholder="Search..."/>
                 </div>
             </form>
 
