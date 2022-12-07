@@ -22,9 +22,13 @@ class GroceriesController < ApplicationController
 
 
     def destroy
-        grocery = find_grocery.destroy
-        head :no_content
-        
+        grocery = Grocery.find_by(id: params[:id])
+        if grocery
+            grocery.destroy
+            head :no_content
+    else
+        render json: { error: "Groceries not found" }, status: :not_found
+      end
     end
 
     private
