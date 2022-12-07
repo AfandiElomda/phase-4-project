@@ -14,6 +14,7 @@ const Navbar = () => {
       <ul className='nav-menu'>
         <li><a href='/'>Home</a></li>
         <li><a href='/ourgroceries'>Our Groceries</a></li>
+        <li><a href='/addgroceries'>Add Groceries</a></li>
         <li><a href='/cart'><BsCartPlusFill className='icon'/><span>Cart</span></a></li>
         
       </ul>

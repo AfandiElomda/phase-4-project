@@ -48,3 +48,11 @@ body {
   border-bottom:none;
 }
 
+.card {
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
