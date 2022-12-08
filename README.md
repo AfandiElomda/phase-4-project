@@ -3,14 +3,16 @@
 # Frontend New Repo
  https://github.com/AfandiElomda/phase-4--new-frontend
 
-# Deployed Backend Link
+ * Deployed Front End Link
+ http://phase-4-new-frontend.vercel.app/
 
+ * Deployed Backend Link
 
 
 # Ruby version 
   2.7.4
 
-# System dependencies
+* System dependencies
   Ensure to run bundle install after cloning to install gemfiles
 
 * Database creation
