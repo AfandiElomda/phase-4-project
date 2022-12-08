@@ -1,5 +1,5 @@
 namespace :assets do
-    desc "Fake!"
+    desc "Should just print stuff and move on.Fake!"
     task :precompile do
         puts "This is fake assets:precompile"
     end
