@@ -7,7 +7,7 @@
  http://phase-4-new-frontend.vercel.app/
 
  * Deployed Backend Link
-
+https://groceries-production.up.railway.app/
 
 # Ruby version 
   2.7.4
