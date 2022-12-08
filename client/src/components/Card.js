@@ -1,32 +1,38 @@
 import React,{useState} from 'react'
 import { useNavigate, useParams } from "react-router-dom";
+import './Card.css'
 
-const Card = (props) => {
+const Card = ({id,name,image_url,price,rating,grocery,setGrocery}) => {
 
-    const [cart, setCart] = useState([]);
-    const {id} = useParams()
+    // const [cart, setCart] = useState([]);
+    // const {id} = useParams()
     const navigate = useNavigate()
 
 
-    function handleClick (props){
-        cart.push(props);
-        console.log(cart)    
-    }
-    function handleDeleteClick(){
+    // function handleClick (props){
+    //     cart.push(props);
+    //     console.log(cart)    
+    // }
+    function handleDeleteClick(id){
+        const deletedCard = grocery.filter(item => item.id !== id)
+        setGrocery(deletedCard)
         fetch(`/groceries/${id}`,{
-          method: "DELETE"
+          method: "DELETE",
+          headers: {
+            'Content-Type': 'application/json'
+        },
         })
       }
 
   return (
     <div className='card'>
         <div className='image'>
-            {/* {props.image_url} */}
+            {image_url}
             <div className='details'>
-             <p>{props.name}</p>
-             <p>{props.price}</p>
-             <p>{props.rating}</p>
-<button className="addcart" onClick={() => handleClick(props)}>Add to Cart</button>  <button className='delete' onClick={handleDeleteClick}>Delete</button>
+             <p>{name}</p>
+             <p>{price}</p>
+             <p>{rating}</p>
+<button className="addcart" /*</div>onClick={() => handleClick()}*/>Add to Cart</button>  <button className='delete' onClick={() =>  handleDeleteClick(id)}>Delete</button>
 
              
             </div>
