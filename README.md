@@ -1,25 +1,25 @@
 ## GROCERIES
 # Phase-4-Backend
-* Frontend New Repo
- https://github.com/AfandiElomda/phase-4-deploy-frontend
+# Frontend New Repo
+ https://github.com/AfandiElomda/phase-4--new-frontend
 
-* Link
-
- https://groceries-production.up.railway.app/
+# Deployed Backend Link
 
 
-* Ruby version 
+
+# Ruby version 
   2.7.4
 
-* System dependencies
+# System dependencies
   Ensure to run bundle install after cloning to install gemfiles
 
 * Database creation
   PostgreSQL
 
 
-* Deployment instructions
-  Deployed on Railway Backend
+# Deployment instructions
+
+* Deployed on Railway Backend
 
   * npm i -g@railway/cli
   * railway init
@@ -34,13 +34,14 @@
     end
 
 * production.rb & development.rb add
- config.hosts<<"name-of-app>-production.up.railway.app
+
+  config.hosts<<"name-of-app>-production.up.railway.app
   
 * Connect local & remote app
   railway link <project-id>
+
 * Finally, railway up
 
-  
 
-* ...
+  
 
