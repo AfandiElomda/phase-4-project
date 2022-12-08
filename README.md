@@ -1,5 +1,8 @@
 ## GROCERIES
 # Phase-4-Backend
+* Frontend New Repo
+ https://github.com/AfandiElomda/phase-4-deploy-frontend
+
 * Link
 
  https://groceries-production.up.railway.app/
