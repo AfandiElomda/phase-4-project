@@ -42,6 +42,8 @@ https://groceries-production-1.up.railway.app/groceries
 * Connect local & remote app
   railway link <project-id>
 
+* Run - Railway run rake db:seed to populate the postgresql
+
 * Finally, railway up
 
 
